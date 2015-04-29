@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="24" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="tilea2" tilewidth="32" tileheight="32">
+  <image source="tilea2.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="193" name="tilee5" tilewidth="32" tileheight="32">
+  <image source="tilee5.png" trans="ff00ff" width="512" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UwQ0AIAgDQF7M5P6TOYEJLSQ2DY8+9VDQjIj8mAPE0UdqZOvunkXZn7hLF79y1y8f7Zmyz/QN7QviV+bf0Z96F52ZcPI7e6y/fmUt8meo+kiYWlV9JhcPuecxAAwAAA==
+  </data>
+ </layer>
+ <layer name="Foreground" width="32" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2WwQ2AIBAED2MjagVqBWoFahn2/3f5+UDZO9Bo4ib74xhYOEIhIqUT2YRzbhWKsW/hs1kxWXp+LP8QP1XsHG/nWzLPzWfWcVbH1jL82B6u+Iy+wg/ldnX+2rPQ8kNKyeJJvvVOWnsxxGf2YblPX+Nb3pbcfMscP1/HZ/rkLr51HNv//q9TwTXcuHv4MbXgdnB/4GvfrBT+AO4IT05RFBG7fp//DC/wCu+kzERHAAwAAA==
+  </data>
+ </layer>
+</map>
