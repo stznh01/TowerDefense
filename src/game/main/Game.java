@@ -1,9 +1,11 @@
 package game.main;
 
+import game.math.CoordinateTranslator;
 import org.newdawn.slick.BasicGame;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.SlickException;
+import org.newdawn.slick.tiled.TiledMap;
 
 /**
  *
@@ -14,6 +16,9 @@ public class Game extends BasicGame{
     
     public static int WIDTH = 1024;
     public static int HEIGHT = 720;
+    
+    private TiledMap map;
+    private CoordinateTranslator ct;
     
     private Game(String title)
     {

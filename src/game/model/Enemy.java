@@ -1,9 +1,10 @@
 package game.model;
 
+import game.math.PathFinder;
 import game.math.Point2D;
 
 /**
- * The prototype for enemy
+ * The prototype for enemy. Initialize through method chaining
  *
  * @author Hansen
  */
@@ -11,12 +12,14 @@ public class Enemy extends MovingGameEntity {
     private static int MAXHEALTH;
     private int health;
     private double speed;
-    private double armor;
+    private int armor;
     private String info;
     private Point2D spawnpoint, destination;
     private boolean isDead = false;
+    private PathFinder pathfinder;
     
     public Enemy() {
+        
     }
     
     
@@ -34,7 +37,7 @@ public class Enemy extends MovingGameEntity {
         return this;
     }
     
-    public Enemy armor(double armor)
+    public Enemy armor(int armor)
     {
         this.armor = armor;
         return this;
@@ -62,6 +65,16 @@ public class Enemy extends MovingGameEntity {
         this.destination = goal;
         return this;
     }
+    
+    public Enemy pathFinder(PathFinder pf) {
+        this.pathfinder = pf;
+        return this;
+    }
+
+    public boolean isDead() {
+        return isDead;
+    }
+    
 
     @Override
     public void update(int delta) {

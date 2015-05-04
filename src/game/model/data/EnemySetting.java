@@ -7,7 +7,7 @@ package game.model.data;
 public class EnemySetting extends Setting {
     private final int health;
     private final double speed;
-    private final double armor;
+    private final int armor;
     private final String info;
     
     public EnemySetting(String enemyName, int health, double speed, int armor, String info){
@@ -26,7 +26,7 @@ public class EnemySetting extends Setting {
         return speed;
     }
     
-    public double getArmor() {
+    public int getArmor() {
         return armor;
     }
     
