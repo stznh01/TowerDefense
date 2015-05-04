@@ -27,7 +27,9 @@ public class EnemyFactory {
     {
         for(int i = 0; i < waveSize; i++)
         {
-            this.wave.add(new Enemy().spawnpoint(spawnpoint).destination(destination));
+            this.wave.add(new Enemy()
+                    .spawnpoint(spawnpoint)
+                    .destination(destination));
         }
         return wave;
     }

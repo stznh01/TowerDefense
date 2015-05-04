@@ -19,7 +19,6 @@ public class Enemy extends MovingGameEntity {
     private PathFinder pathfinder;
     
     public Enemy() {
-        
     }
     
     

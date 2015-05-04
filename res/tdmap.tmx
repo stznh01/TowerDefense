@@ -8,12 +8,12 @@
  </tileset>
  <layer name="Background" width="32" height="24">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3UwQ0AIAgDQF7M5P6TOYEJLSQ2DY8+9VDQjIj8mAPE0UdqZOvunkXZn7hLF79y1y8f7Zmyz/QN7QviV+bf0Z96F52ZcPI7e6y/fmUt8meo+kiYWlV9JhcPuecxAAwAAA==
+   H4sIAAAAAAAAA+3UQRJAMAyF4bQL98AJsLHFCXD/u3j2TJI2RifTxb+jH2mJRNT8WESzMK8+d82TL31mi3cp2dfO27MvmfWbr92zkv2UfdPui8aXnH+PvtV3kXMmPPk5a1S/+pJ7Nf+MVL8NRB3qwzc+1wB3RFPg17Se4d0Cd0WbsS9th3ugE13uV/MvAAwAAA==
   </data>
  </layer>
  <layer name="Foreground" width="32" height="24">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+2WwQ2AIBAED2MjagVqBWoFahn2/3f5+UDZO9Bo4ib74xhYOEIhIqUT2YRzbhWKsW/hs1kxWXp+LP8QP1XsHG/nWzLPzWfWcVbH1jL82B6u+Iy+wg/ldnX+2rPQ8kNKyeJJvvVOWnsxxGf2YblPX+Nb3pbcfMscP1/HZ/rkLr51HNv//q9TwTXcuHv4MbXgdnB/4GvfrBT+AO4IT05RFBG7fp//DC/wCu+kzERHAAwAAA==
+   H4sIAAAAAAAAA9WUQQ6AIAwEMeEtfs7/372TQqdLRdjEG3W6S0u9SnkK//7ULvxIXl6WFeRv8bO8RM7tyFcyz+aTPnp1tJbwPQ8jPtEpfCu30f1H7yLKtzSTxUq+OpPqLlp84kOZp9P4ytti6Z7g90TOtdwV/JZp9bDKP60le6LyvdmhfXp8svfkvwo/KvpefcXPkOrhBWwTABgADAAA
   </data>
  </layer>
 </map>

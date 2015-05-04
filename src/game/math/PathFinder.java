@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.PriorityQueue;
 
 /**
+ * 
  *
  * @author Hansen
  */
@@ -27,19 +28,22 @@ public class PathFinder {
         this.consideredEdgeList.clear();
         Vertex fromVertex = new Vertex(from);
         Vertex toVertex = new Vertex(to);
+        Vertex currentVertex, nextVertex;
         PriorityQueue<Vertex> priorityQueue = new PriorityQueue<>();
         fromVertex.setMinDistance(0);
         priorityQueue.add(fromVertex);
-        Vertex currentVertex, nextVertex;
+        
         while(!priorityQueue.isEmpty())
         {
             currentVertex = priorityQueue.poll();
             this.target = currentVertex;
+            
             if (currentVertex.equals(toVertex))
             {
                 this.target = currentVertex;
                 break;
             }
+            
             for (Point2D next : navGraph.getNeighbors(currentVertex.getPoint()))
             {
                 consideredEdgeList.add(new Edge(currentVertex.getPoint(), next));

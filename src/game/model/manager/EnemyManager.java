@@ -1,4 +1,3 @@
-
 package game.model.manager;
 
 import game.math.PathFinder;
@@ -44,10 +43,10 @@ public class EnemyManager {
         for (GameEntity entity : entityList) {
             entity.update(delta);
         }
+        
         if (this.EnemyCount < this.numAgentLimit) {
             if (this.timeSinceLastSpawn > this.spawnTime) {
                 EnemySetting enemySetting = (EnemySetting)enemyParamReader.getSetting(0);
-                //entityList.add(new Enemy(mapLocation, enemySetting, pathFinder, destinationMapLocation));
                 entityList.add(new Enemy()
                         .spawnpoint(mapLocation)
                         .destination(destinationMapLocation)

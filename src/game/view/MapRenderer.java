@@ -9,7 +9,7 @@ import org.newdawn.slick.tiled.TiledMap;
  * @author Hansen
  */
 public class MapRenderer {
-    private TiledMap map;
+    private final TiledMap map;
     private double wx,wy;
     private int mapX, mapY;
     private final CoordinateTranslator ct;
